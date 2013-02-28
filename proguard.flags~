@@ -12,9 +12,12 @@
 -keep class com.android.settings.accounts.*
 -keep class com.android.settings.fuelgauge.*
 -keep class com.android.settings.users.*
+<<<<<<< HEAD
 -keep class com.android.settings.NotificationStation
+=======
 -keep class com.koushikdutta.**
 -keep class com.android.settings.cyanogenmod.superuser.**
+>>>>>>> 8f4ccf5... Switch to new Superuser
 
 # Keep click responders
 -keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
